@@ -1,0 +1,9 @@
+.chat-page-wrap {
+    padding: 0 10px;
+}
+
+.message-list {
+    height: 450px;
+    overflow: auto;
+    background: url("../../../src/img/chat-bg.jpg") center center/cover no-repeat;
+}

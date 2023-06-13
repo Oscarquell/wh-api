@@ -1,0 +1,32 @@
+.chat-box {
+    width: 604px;
+    height: 40px;
+}
+
+.msg-text-right{
+    overflow-wrap: break-word;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: max-content;
+    height: max-content;
+    margin: 12px 5px;
+    margin-left: auto;
+}
+
+.msg-text-left {
+    overflow-wrap: break-word;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: max-content;
+    height: max-content;
+    margin: 12px 5px;
+}
+
+.time {
+    display: block;
+    font-size: 12px;
+}

@@ -1,0 +1,45 @@
+.phone-field {
+    display: block;
+    width: 382px;
+}
+
+.field-to-write {
+    width: 600px;
+    border: none;
+    resize: none;
+    overflow: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-field {
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.send-and-end {
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.logout {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.send {
+    display: block;
+    background: url("../../../src/img/send-btn.png") center center/cover no-repeat;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
